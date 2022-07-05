@@ -10,4 +10,10 @@ services:
    - SERVER_PORT=3000
   volumes:
     - ./src:/app/src
+  image: dotz-web-app:latest
+  networks:
+    dev:
+
+networks:
+  dev:
 
