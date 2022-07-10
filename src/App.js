@@ -1,19 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import { getWreckingBall } from './WreckingBallHelper'
 
 function App() {
-    (async () => {
-  const rawResponse = await fetch('http://localhost:8080/dotz-tech/api/v1/customer/swag', {
-    method: 'GET',
-    headers: {
-      'Accept': 'application/json',
-      'Content-Type': 'application/json'
-    }
-  });
-  const content = await rawResponse.text();
-
-  console.log(content);
-})();
+    getWreckingBall('/customer/swag');
   return (
     <div className="App">
       <header className="App-header">
