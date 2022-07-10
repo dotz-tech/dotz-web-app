@@ -3,13 +3,12 @@ import './App.css';
 
 function App() {
     (async () => {
-  const rawResponse = await fetch('http://localhost:8080/dotz-tech/api/v1/customer/create', {
-    method: 'POST',
+  const rawResponse = await fetch('http://localhost:8080/dotz-tech/api/v1/customer/swag', {
+    method: 'GET',
     headers: {
       'Accept': 'application/json',
       'Content-Type': 'application/json'
-    },
-      body: JSON.stringify({firstName: 'swag', lastName: 'cook', email: 'jacksonrocks1@yahoo.com'})
+    }
   });
   const content = await rawResponse.text();
 
