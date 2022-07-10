@@ -9,3 +9,7 @@ This is the React frontend for the Dotz customer facing portal.
 5. Your frontend/webapp changes should reflect immediately on save!
 6. Perform setup [here](https://github.com/dotz-tech/wrecking-ball#start-up-application) - note the java service must be rebuilt for backend changes to reflect
 7. Ensure both containers (_dotz_dotz-web-app_1_ & _dotz_wrecking-ball_1_) are running with `docker ps`
+
+## FAQ
+### How is container networking configured?
+https://gist.github.com/juanje/abc66f983cda1843f5e798ac11a578b9
