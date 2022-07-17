@@ -1,6 +1,6 @@
 const { REACT_APP_WRECKING_BALL_BASE_URL } = process.env;
 
-export function postWreckingBall(bodyObject, apiUrl) {
+export function postWreckingBallJson(bodyObject, apiUrl) {
   (async () => {
     const rawResponse = await fetch(`${REACT_APP_WRECKING_BALL_BASE_URL}${apiUrl}`, {
         method: 'POST',
@@ -16,7 +16,7 @@ export function postWreckingBall(bodyObject, apiUrl) {
   })();
 }
 
-export function getWreckingBall(apiUrl) {
+export function getWreckingBallJson(apiUrl) {
   (async () => {
     const rawResponse = await fetch(`${REACT_APP_WRECKING_BALL_BASE_URL}${apiUrl}`, {
         method: 'GET',

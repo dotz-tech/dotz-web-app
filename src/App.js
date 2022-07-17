@@ -1,9 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
-import { getWreckingBall } from './WreckingBallHelper'
+import { getWreckingBallJson } from './WreckingBallHelper'
 
 function App() {
-    getWreckingBall('/customer/swag');
+    getWreckingBallJson('/customer/swag');
   return (
     <div className="App">
       <header className="App-header">
