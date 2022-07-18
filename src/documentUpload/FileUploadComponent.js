@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
+import { uploadWreckingBallFile } from '../api/WreckingBallApis';
 
-function FileUploadPage(){
+function FileUploadComponent(){
     const [selectedFile, setSelectedFile] = useState();
 	const [isFilePicked, setIsSelected] = useState(false);
 
@@ -10,6 +11,13 @@ function FileUploadPage(){
 	};
 
 	const handleSubmission = () => {
+        const formData = new FormData();
+		formData.append('file', selectedFile);
+        formData.append('customerId', 123);
+        formData.append('documentType', 'W2');
+        uploadWreckingBallFile(
+            formData
+        );
 	};
 
 	return(
@@ -22,4 +30,4 @@ function FileUploadPage(){
 	)
 }
 
-export default FileUploadPage;
+export default FileUploadComponent;

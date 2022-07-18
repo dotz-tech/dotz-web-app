@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { getWreckingBallJson } from './WreckingBallHelper'
+import { getWreckingBallJson } from './api/WreckingBallApis'
 
 function App() {
     getWreckingBallJson('/customer/swag');
