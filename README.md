@@ -1,3 +1,5 @@
+![dotz_logo_v1](https://user-images.githubusercontent.com/25440999/180133347-9cc6324b-7bb1-40ab-b952-c4bea943b9e4.png)
+
 # dotz-web-app
 This is the React frontend for the Dotz customer facing portal.
 
