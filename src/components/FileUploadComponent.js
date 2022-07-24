@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import { uploadWreckingBallFile } from '../api/WreckingBallApis';
 
-function FileUploadComponent(){
+function FileUploadComponent() {
     const [selectedFile, setSelectedFile] = useState();
-	const [isFilePicked, setIsSelected] = useState(false);
+	const [setIsSelected] = useState(false);
 
 	const changeHandler = (event) => {
 		setSelectedFile(event.target.files[0]);

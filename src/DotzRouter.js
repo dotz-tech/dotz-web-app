@@ -5,13 +5,14 @@ Routes,
 } from "react-router-dom";
 
 import App from "./App";
-import FileUploadComponent from "./documentUpload/FileUploadComponent";
+import FileUploadComponent from "./components/FileUploadComponent";
+import LoginComponent from "./components/LoginComponent";
 
 function DotzRouter() {
 return (
 	<Router>
 		<Routes>
-		    <Route path="/" element={<App />} />
+		    <Route path="/" element={<LoginComponent />} />
 		    <Route path="/docUpload" element={<FileUploadComponent />} />
 		</Routes>
 	</Router>

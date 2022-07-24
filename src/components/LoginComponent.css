@@ -1,0 +1,15 @@
+.login-component-wrapper {
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: gray;
+}
+
+.login-component-body {
+    text-align: center;
+    align-self: center;
+    height: 20%;
+    background: white;
+}
