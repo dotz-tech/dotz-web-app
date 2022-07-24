@@ -4,12 +4,22 @@
     justify-content: center;
     width: 100%;
     height: 100%;
-    background: gray;
+    background: white;
 }
 
 .login-component-body {
     text-align: center;
     align-self: center;
-    height: 20%;
-    background: white;
+    height: 40%;
+    width: 50%;
+    box-shadow: 0 0 10px 10px gray;
+    align-items: center;
+    display: flex;
+    flex-direction: colomn;
+    justify-content: center;
+}
+
+.login-logo {
+    display: block;
+    text-align: center;
 }

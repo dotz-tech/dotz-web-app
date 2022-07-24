@@ -16,8 +16,8 @@ class LoginComponent extends React.Component {
         return (
             <div id="login-component-wrapper" class="login-component-wrapper">
                 <div id="login-component-body" class="login-component-body">
-                    <img src={logo} alt="logo" />
-                    <form onSubmit={this.handleSubmission}>
+                    <img src={logo} alt="logo" class="login-logo" />
+                    <form onSubmit={this.handleSubmission} class="login-logo">
                         <label>
                             Email:
                             <input type="text" name="email" />
