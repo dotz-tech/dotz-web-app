@@ -16,14 +16,14 @@ class LoginComponent extends React.Component {
         return (
             <div id="login-component-wrapper" class="login-component-wrapper">
                 <div id="login-component-body" class="login-component-body">
-                    <img src={logo} alt="logo" class="login-logo" />
-                    <form onSubmit={this.handleSubmission} class="login-logo">
-                        <label>
-                            Email:
-                            <input type="text" name="email" />
-                        </label>
-                        <input type="submit" value="Login" />
-                    </form>
+                    <div class="login-logo">
+                        <img src={logo} alt="dotz_logo" />
+                    </div>
+                    <div class="login-logo">
+                        <text>
+                            Log in With
+                        </text>
+                    </div>
                 </div>
             </div>
         )

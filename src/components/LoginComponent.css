@@ -15,12 +15,11 @@
     box-shadow: 0 0 10px 10px gray;
     align-items: center;
     display: flex;
-    flex-direction: colomn;
+    flex-direction: column;
     justify-content: center;
     background: #FFFFFF;
 }
 
 .login-logo {
-    display: block;
-    text-align: center;
+    dislay: flex;
 }
