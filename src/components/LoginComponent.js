@@ -1,4 +1,4 @@
-import React, {useState} from 'react'; 
+import React from 'react'; 
 import logo from '../assets/dotz_logo_v1.png';
 import './LoginComponent.css';
  

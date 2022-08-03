@@ -4,7 +4,6 @@ Route,
 Routes,
 } from "react-router-dom";
 
-import App from "./App";
 import FileUploadComponent from "./components/FileUploadComponent";
 import LoginComponent from "./components/LoginComponent";
 
