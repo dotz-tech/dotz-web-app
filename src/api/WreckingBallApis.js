@@ -34,7 +34,7 @@ export function getWreckingBallJson(apiUrl) {
 export function uploadWreckingBallFile(formData) {
     console.log(formData.get('file'));
   (async () => {
-    const rawResponse = await fetch(`${REACT_APP_WRECKING_BALL_BASE_URL}/document/upload`, {
+    const rawResponse = await fetch(`${REACT_APP_WRECKING_BALL_BASE_URL}/v1/document/upload`, {
         method: 'POST',
         body: formData
     });
